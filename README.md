@@ -4,57 +4,44 @@
 
 Click [here]() to access the live project.
 
-This website is designed for a small start-up construction company based in Palmela Village, 30 minutes south of Lisbon, Portugal. It will be used as a marketing tool for the company.
+This website is designed for a small start-up construction company based in Palmela Village, 30 minutes south of Lisbon, Portugal. The company was created in December 2022. The plan is to build small villas and sell them as holiday homes or permanent homes. 
 
 <p align="center">
   <img src="enter relative link"/>
 </p>
 
-## CLIENT'S REQUIREMENTS
-- Explain what the company does to potential buyers, estate agents, contractors, developers, investors, the general public
-- Offer a description of Palmela Village
-- Describe the villas on offer, including plans, photos of the staged interiors and exteriors
-- Show the location on a map
-- Give contact details
-- Answer requests for information
-- The site should be concise and easy to navigate
-- There will be scope for future development
+# I- USER EXPERIENCE (UX)
+## A. User Stories
+1. First Time Visitor Goals
+
+   - As a potential client, I want to navigate the site easily 
+   - I want to know what services the company offers
 
 
-## USER EXPERIENCE (UX)
-- First Time Visitor Goals:
+2. Returning Visitor Goals
 
-    1. Find the site navigation easy
-    2. Receive visual information on the villas
+   - I want visuals and a description of the current projects (plans, staging images, photos)
+   - I want to find the Ondas Lunares contact details
+   - I can request further information by mail or phone
 
-- Returning Visitor Goals:
+3. Frequent User Goals
 
-    1. Locate the Ondas Lunares contact details
-    2. Check if I can request more information
-
-- Frequent User Goals:
-
-    1. Find more photos and more information as the construction projects progress
-
-  
-
-## - USER STORIES
-## - DESIGN
-## - WIREFRAMES
+   - I expect to see updates on the progress of the current construction project(s)
 
 
+## B. Design
 
-# DESIGN
-## 1. Color Scheme
-## 2. Fonts
-## 3. Images
-## 4. Wireframes
+1. Colour Scheme
+    
+2. Typography
 
-# TECHNOLOGIES USED
+     The chosen font for this site is Work Sans. It looks elegant and easy to read. It works well on this one page site: [Linehan Construction & Restoration](https://architects.linehanconstruction.com/?gclid=Cj0KCQiAlMCOBhCZARIsANLid6Ze4Z-QJrfD01P0NZ2F8L2rwN5KyqBbYHwgyPJ2bXREqr5H2X0VJ70aAsqmEALw_wcB). The fallback font is Sans Serif (Work Sans being 'sans' serif).
+   
+3. Imagery
 
-# TESTING
+   The visitors to a construction website will expect to see photos of the finished products. As the construction is in progress, I use photos of similar completed projects, plans for the current project and images created by an interior designer (staging technic). 
+    
 
-# DEPLOYMENT
 
-# CREDITS
-Janine is 70 fdfl fja;ff dkfdsd;;;
+
+
