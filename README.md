@@ -28,7 +28,7 @@ The target audience: Mainly, individuals who wish to buy a new-built villa, to u
 
 3. Frequent User Goals
 
-   - I expect to see updates on the progress of the current construction project(s)
+   - I expect to see updates (mostly, visuals) on the progress of the current construction project(s)
 
 
 ## B. Design
@@ -49,7 +49,7 @@ The target audience: Mainly, individuals who wish to buy a new-built villa, to u
 I chose to do a one-page website for the following reasons: 
 The site is for a two-people startup company. In addition, builders don't need to provide tons of information online. Therefore, there is no need for multiple pages. Finally, a one-page website will be easy to maintain, simple to navigate and will offer a better mobile experience.
 
-I made this decision after reading "Website Battles: One-Page Website vs Multi-Page Website" on [web.com](https://www.web.com/blog/start/website-design/website-battles--one-page-website-vs-multi-page-website).
+I made this decision after reading *"Website Battles: One-Page Website vs Multi-Page Website"* on [web.com](https://www.web.com/blog/start/website-design/website-battles--one-page-website-vs-multi-page-website) and *"How to Create a Beautiful One-Page Website"* on [wix.com](https://www.wix.com/blog/2018/08/how-to-create-one-page-website?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^99403845119&experiment_id=^^433253293178^^_DSA&gclid=CjwKCAiA5t-OBhByEiwAhR-hm0JnFmcGlCjQBKoKQjyMFUJRnhZNgvEV_JOvAU0QFNWiuiDZP3zz4BoCx-8QAvD_BwE).
 
 1. Mobile wireframe - View
 2. Desktop wireframe - View
