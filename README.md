@@ -4,11 +4,25 @@
 
 Click [here]() to access the live project.
 
+# TABLE OF CONTENTS
+[INTRODUCTION](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#ondas-lunares)
+
+[I- USER EXPERIENCE](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#i--user-experience-ux)
+
+[A. User Stories](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#a-user-stories)
+
+[B. Design](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#b-design)
+
+[C. Wireframes](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#c-wireframes)
+<br>
+<br>
+# INTRODUCTION
 This website is designed for a small start-up construction company based in Palmela Village, a holiday resort located 30 minutes south of Lisbon, Portugal. The construction of the resort was interrupted in 2010 during the crash. Several developers are now investing in the resort, as there is a severe shortage of affordable housing in Lisbon. The company Ondas Lunares was created in December 2022. Their first project is to build approximately 15 villas. 
 
 <p align="center">
   <img src="enter relative link"/>
 </p>
+
 
 # I- USER EXPERIENCE (UX)
 The target audience: Mainly, individuals who wish to buy a new-built villa, to use as a holiday home or a permanent home, but also people who sell villas (estate agents, investors...).
