@@ -65,8 +65,8 @@ The site is for a two-people startup company. In addition, builders don't need t
 
 I made this decision after reading *"Website Battles: One-Page Website vs Multi-Page Website"* on [web.com](https://www.web.com/blog/start/website-design/website-battles--one-page-website-vs-multi-page-website) and *"How to Create a Beautiful One-Page Website"* on [wix.com](https://www.wix.com/blog/2018/08/how-to-create-one-page-website?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^99403845119&experiment_id=^^433253293178^^_DSA&gclid=CjwKCAiA5t-OBhByEiwAhR-hm0JnFmcGlCjQBKoKQjyMFUJRnhZNgvEV_JOvAU0QFNWiuiDZP3zz4BoCx-8QAvD_BwE).
 
-1. Mobile wireframe - View
-2. Desktop wireframe - View
+- Mobile wireframe - View
+- Desktop wireframe - View
 
     
 
