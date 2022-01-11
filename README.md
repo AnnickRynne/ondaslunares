@@ -13,7 +13,7 @@ Click [here]() to access the live project.
 
 [B. Design](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#b-design)
 
-[C. Wireframes](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#c-wireframes)
+[C. Wireframes](## C. Wireframes)
 <br>
 <br>
 # INTRODUCTION
