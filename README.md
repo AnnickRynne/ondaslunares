@@ -1,6 +1,6 @@
 
 
-<h1 align="center">ONDAS LUNARES</h1>
+<h1 text-align="center">ONDAS LUNARES</h1>
 
 Click [here]() to access the live project.
 
@@ -13,13 +13,13 @@ Click [here]() to access the live project.
 
 [B. Design](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#b-design)
 
-[C. Wireframes](## C. Wireframes)
+[C. Wireframes](https://github.com/AnnickRynne/ondaslunares/blob/main/README.md#c-wireframes)
 <br>
 <br>
 # INTRODUCTION
 This website is designed for a small start-up construction company based in Palmela Village, a holiday resort located 30 minutes south of Lisbon, Portugal. The construction of the resort was interrupted in 2010 during the crash. Several developers are now investing in the resort, as there is a severe shortage of affordable housing in Lisbon. The company Ondas Lunares was created in December 2022. Their first project is to build approximately 15 villas. 
 
-<p align="center">
+<p text-align="center">
   <img src="enter relative link"/>
 </p>
 

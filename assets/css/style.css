@@ -1,25 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #324960;
 }
+
 
 #hero {
     height: 600px;
-    background: yellow;
+    background: #eeece8;
 }
 
 #project {
     height: 450px;
-    background: blue;
+    background: #cfd0d1;
 }
 
 #about {
     height: 300px;
-    background: pink;
+    background: #c3ddf5;
 }
 
 #footer {
     height: 150px;
-    background: cream;
+    background: #a6b3c2;
 }
