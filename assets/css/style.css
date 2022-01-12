@@ -25,7 +25,6 @@ body {
 /* Menu: */
 #menu {
     font-size: 1.2em;
-    
     font-weight: 500;
 }
 
@@ -37,12 +36,19 @@ body {
 
 #menu a {
     text-decoration: none;
-    color:#bd924d;
+    color: #bd924d;
 }
 
-#logo, #menu {
+#menu a:hover {
+    color: #324960;
+    border-bottom: 2px solid #324960;
+}
+
+#logo,
+#menu {
     line-height: 75px;
 }
+
 
 #hero {
     height: 600px;
@@ -52,6 +58,7 @@ body {
 
     position: relative;
 }
+
 /* 
 #hero_image {
     height: 600px;
@@ -65,7 +72,7 @@ body {
 
     padding: 40px 10px 40px 10px;
 
-    background-color:#c3ddf5;
+    background-color: #fff;
 
     bottom: 30px;
     right: 300px;
@@ -74,19 +81,17 @@ body {
     position: absolute;
 }
 
-}
-
 #project {
-    height: 450px;
-    background: #cfd0d1;
+    height: 900x;
+    background-color: #eeece8;
 }
 
 #about {
-    height: 300px;
-    background: #c3ddf5;
+    height: 600px;
+    background-color: #eeece8;
 }
 
 #footer {
-    height: 150px;
-    background: #a6b3c2;
+    height: 300px;
+    background-color: #324960;
 }
