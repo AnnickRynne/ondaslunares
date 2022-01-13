@@ -59,23 +59,23 @@ body {
     position: relative;
 }
 
-/* 
+
 #hero_image {
     height: 600px;
     width: 100%;
-    background: url() no-repeat center center;
-} */
+    background: url("../images/bg_img_2400x1600.jpg") no-repeat center center;
+}
 
 #hero_intro {
-    width: 450px;
-    height: 75px;
-
-    padding: 40px 10px 40px 10px;
-
+    width: 400px;
+    height: 100px;
+    padding: 40px;
     background-color: #fff;
-
-    bottom: 30px;
-    right: 300px;
+    /*bottom: 30px;
+    right: 300px;*/
+    top: 50%;
+    left: 50%;
+    margin: -90px 0 0 -220px;
     text-align: center;
 
     position: absolute;
@@ -83,15 +83,15 @@ body {
 
 #project {
     height: 900x;
-    background-color: #eeece8;
+    background-color: #cce2ec;
 }
 
 #about {
     height: 600px;
-    background-color: #eeece8;
+    background-color: #f5e1e6;
 }
 
 #footer {
     height: 300px;
-    background-color: #324960;
+    background-color: #d9dcdf;
 }
