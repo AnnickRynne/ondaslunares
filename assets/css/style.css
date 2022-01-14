@@ -59,6 +59,10 @@ h3 {
     font-weight: 700;
 }
 
+p {
+    padding-top: 1.5em;
+}
+
 #hero {
     height: 600px;
     width: 100%;
@@ -97,6 +101,7 @@ h3 {
 
 #contain_map_info {
     margin: 60px 0 0 60px;
+    text-align: center;
 }
 
 .pal_div {
