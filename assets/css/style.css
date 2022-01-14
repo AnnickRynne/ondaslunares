@@ -12,6 +12,10 @@ body {
     color: #324960;
 }
 
+header {
+    margin: 40px 0;
+}
+
 /* Logo: currently text but will be replaced by a designed logo image in the future */
 #logo {
     float: left;
@@ -101,7 +105,7 @@ h3 {
 }
 
 #map_outer {
-    position: relative;
+    /*position: relative;*/
     width: 300px;
     text-align: right;
     height: 500px;
