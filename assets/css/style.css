@@ -95,20 +95,24 @@ h3 {
     width: 100%;
 }
 
+#contain_map_info {
+    margin: 60px 0 0 60px;
+}
+
 .pal_div {
     width: 300px;
     height: 500px;
-    /*padding: 20px;
-    box-sizing: border-box;*/
+    padding: 20px;
+    box-sizing: border-box;
     background-color: bisque;
     margin: 0 40px 0 40px;
 }
 
 #map_outer {
-    /*position: relative;*/
     width: 300px;
-    text-align: right;
     height: 500px;
+    text-align: right;
+    padding: 0;
 }
 
 .gmap_canvas {
