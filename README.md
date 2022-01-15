@@ -7,13 +7,17 @@ Click [here]() to access the live project.
 # TABLE OF CONTENTS
 [INTRODUCTION](#introduction)
 
-[I- USER EXPERIENCE](#user_experience)
-
-[A. User Stories](#user_stories)
-
-[B. Design](#design)
-
-[C. Wireframes](#wireframes)
+[EXPERIENCE](#experience)<br>
+[Stories](#stories)<br>
+[Design](#design)<br>
+[Wireframes](#wireframes)<br>
+<br>
+[FEATURES](#features)<br>
+[Header](#header)<br>
+[Current Project](#current_project)<br>
+[About Us](about_us)<br>
+[Contact Us](contact_us)<br>
+[Footer](footer)<br>
 <br>
 <br>
 
@@ -25,10 +29,10 @@ This website is designed for a small start-up construction company based in Palm
 </p>
 
 
-# I- USER EXPERIENCE (UX)
+# EXPERIENCE (UX)
 The target audience: Mainly, individuals who wish to buy a new-built villa, to use as a holiday home or a permanent home, but also people who sell villas (estate agents, investors...).
 
-## A. User Stories
+## Stories
 1. First Time Visitor Goals
 
    - As a potential client, I want to navigate the site easily 
@@ -46,7 +50,7 @@ The target audience: Mainly, individuals who wish to buy a new-built villa, to u
    - I expect to see updates (mostly, visuals) on the progress of the current construction project(s)
 
 
-## B. Design
+## Design
 
 1. Colour Scheme
     The name of the company means "moon waves". I looked at some online moonlight photos and  paintings that inspired me to use shades of blue and ochre (like here: ["Pleine-lune"](https://quilteuseforever.files.wordpress.com/2014/11/pleine-lune.jpg)). Lisbon is near the sea and the land is mostly sand, so I think that the colours will go well with the photos of the area, which is very dry in the summer.
@@ -59,18 +63,28 @@ The target audience: Mainly, individuals who wish to buy a new-built villa, to u
 
    The visitors to a construction website will expect to see photos of the finished products. As the construction is in progress, I use photos of similar completed projects, plans for the current project and images created by an interior designer (staging technic). 
 
-## C. Wireframes
+## Wireframes
 
 I chose to do a one-page website for the following reasons: 
 The site is for a two-people startup company. In addition, builders don't need to provide tons of information online. Therefore, there is no need for multiple pages. Finally, a one-page website will be easy to maintain, simple to navigate and will offer a better mobile experience.
 
 I made this decision after reading *"Website Battles: One-Page Website vs Multi-Page Website"* on [web.com](https://www.web.com/blog/start/website-design/website-battles--one-page-website-vs-multi-page-website) and *"How to Create a Beautiful One-Page Website"* on [wix.com](https://www.wix.com/blog/2018/08/how-to-create-one-page-website?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^99403845119&experiment_id=^^433253293178^^_DSA&gclid=CjwKCAiA5t-OBhByEiwAhR-hm0JnFmcGlCjQBKoKQjyMFUJRnhZNgvEV_JOvAU0QFNWiuiDZP3zz4BoCx-8QAvD_BwE).
 
-- Mobile wireframe - [View](docs/mobile_view.png)
-- Desktop wireframe - [View](docs/desktop_view.png)
+- Mobile wireframe - ![ ](docs/mobile_view.png)
+- Desktop wireframe - ![ ](docs/desktop_view.png)
 
     
+# FEATURES
 
+## Header
+
+## Current Project
+
+## About Us
+
+## Contact Us
+
+## Footer
 
 
 
