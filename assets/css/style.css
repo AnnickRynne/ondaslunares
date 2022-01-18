@@ -20,13 +20,11 @@ header {
 #logo {
     float: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2em;
     font-weight: 500;
     color: #bd924d;
     margin-left: 2%;
 }
 
-/* Menu: */
 #menu {
     font-size: 1.2em;
     font-weight: 500;
@@ -98,19 +96,20 @@ p {
 }
 
 .container_project {
-max-width: 100%;
-margin: 0 auto;
-padding: 20px 50px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 50px;
 }
 
 span {
     font-size: 0.5em;
-    color:#bd924d;
+    color: #bd924d;
     padding-top: 20px;
 }
 
+/* CONTAINER 1 */
 #container_1 {
-    background-color:#eeece8;
+    background-color: #eeece8;
 }
 
 .pal_div {
@@ -119,12 +118,13 @@ span {
     flex: 1;
 }
 
-.pal_div > h2, h3 {
+.pal_div>h2,
+h3 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.pal_div > img {
+.pal_div>img {
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -132,41 +132,110 @@ span {
     bottom: 0px;
 }
 
+/* CONTAINER 2 */
+#container_2 {
+    background-color: #bd924d;
+}
+/* #v2_ff {
+    background-color:darkmagenta;
+}
+
+#v2_gf {
+    background-color:brown;
+}
+
+#v2_img_130 {
+    background-color:darkcyan;
+ } */
+
+/*  #v2_ff h2 {
+    color:#6690b6;
+ }
+ */
+ol {
+    margin: 0 1.5em 1.5em;
+}
+
+ol li {
+    margin: .75em;
+}
+ 
+#v2_img_130 {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.v2 {
+    flex: 1;
+}
+
+/* CONTAINER 3 */
+#container_3 {
+    background-color:#324960;
+}
+
+.photo_div {
+    width: 300px;
+    height: 200px;
+    margin:20px;
+    color:#fff;
+    text-align: center;
+    line-height: 100px;
+    box-sizing: border-box;
+    background-color: red;
+ }
+
 #about {
     height: 600px;
     background-color: #f5e1e6;
 }
-
-#container_2 {
-    background-color:#bd924d;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
+ */
 #footer {
     height: 300px;
     background-color: #d9dcdf;
 }
 
 /* Responsivity using @media */
-@media (min-width: 900px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+
+@media (min-width: 500px) {
+    #logo {
+        font-size: 1.2em;
     }
+}
+
+
+@media (min-width: 900px) {
+    #logo {
+        font-size: 2em;
+    }
+    
+    #menu {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+    #menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 2%;
+}
+
     #hero_intro {
         width: 400px;
         height: 100px;
         padding: 40px;
     }
+
     #container_1 {
         display: flex;
     }
+
     #container_2 {
         display: flex;
         justify-content: space-between;
+    }
+    #v2_img_130 {
+        max-width: 500px;
+        max-height: 500px;
     }
 }
