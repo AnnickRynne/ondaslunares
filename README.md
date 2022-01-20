@@ -2,7 +2,7 @@
 
 <h1 text-align="center">ONDAS LUNARES</h1>
 
-Click [here]() to access the live project.
+Click [here]( https://annickrynne.github.io/ondaslunares/) to access the live project.
 
 # TABLE OF CONTENTS
 [INTRODUCTION](#introduction)
@@ -19,6 +19,7 @@ Click [here]() to access the live project.
 [Contact Us](contact_us)<br>
 [Footer](footer)<br>
 <br>
+[DEPLOYMENT](deployment)<br>
 <br>
 
 # INTRODUCTION
@@ -70,8 +71,14 @@ The site is for a two-people startup company. In addition, builders don't need t
 
 I made this decision after reading *"Website Battles: One-Page Website vs Multi-Page Website"* on [web.com](https://www.web.com/blog/start/website-design/website-battles--one-page-website-vs-multi-page-website) and *"How to Create a Beautiful One-Page Website"* on [wix.com](https://www.wix.com/blog/2018/08/how-to-create-one-page-website?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^99403845119&experiment_id=^^433253293178^^_DSA&gclid=CjwKCAiA5t-OBhByEiwAhR-hm0JnFmcGlCjQBKoKQjyMFUJRnhZNgvEV_JOvAU0QFNWiuiDZP3zz4BoCx-8QAvD_BwE).
 
-- Mobile wireframe - ![ ](docs/mobile_view.png)
-- Desktop wireframe - ![ ](docs/desktop_view.png)
+### Mobile wireframe:
+
+![ ](docs/mobile_wireframe.png)
+
+
+### Desktop wireframe:
+
+![ ](docs/desktop_wireframe.png)
 
     
 # FEATURES
@@ -87,4 +94,14 @@ I made this decision after reading *"Website Battles: One-Page Website vs Multi-
 ## Footer
 
 
+# DEPLOYMENT
+This site was deployed to GitHub pages as per the following steps:<br>
+<ul>
+   <li>In the GitHub repository, select ondaslunares repository</li>
+   <li>Navigate to the Settings tab and scroll down to the GitHub Pages, to "Pages settings now has its own dedicated tab!" and click on the link that says "Check it out here!"</li>
+   <li>Select a source by clicking where it says "none" and then select "main"</li>
+   <li>Scroll down to the bottom of the page, to the GitHub Pages section and you will see the link to the website</li>
+</ul>
+
+[Live site]( https://annickrynne.github.io/ondaslunares/)
 
