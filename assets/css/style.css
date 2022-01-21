@@ -135,10 +135,13 @@ span {
 
 .center_heading {
     text-align: center;
+    color: #bd924d;
     font-size: 2em;
     font-weight: 700px;
-    line-height: 5em;
+    padding: 3em 0 1.5em 0;
+    background-color: #eeece8;
 }
+
 
 /* CONTAINER 2 */
 #container_2 {
@@ -192,31 +195,30 @@ ol li {
     width: 300px;
     height: 200px;
     margin:20px;
-    color:#fff;
-    text-align: center;
-    line-height: 100px;
     box-sizing: border-box;
-    background-color: red;
+    }
+
+ .mokeup_img {
+     max-width: 300px;
+     max-height: 200px;
  }
 
 /* SECTION 3: THE TEAM */
 #about_the_team {
-    background-color: #eeece8;
+    background-color:#eeece8;
     margin-top: 0px;
     padding: 20px;
-    display: flex;
-}
+    }
 
 .about {
-    width: 60%;
+    width: 300px;
     padding: 20px;
     margin: 30px 30px 50px 0;
     color:#fff;
     background-color:#324960;
     box-sizing: border-box;
     line-height: 1.4em;
-    font-size: 1.2em;
-     
+    font-size: 0.8em;
 }
 
 .about img {
@@ -252,6 +254,9 @@ ol li {
     .v2 {
         border: 0;
        }
+    .about {
+        width: 300px;
+         }
     }
 
 @media (min-width: 576px) {
@@ -270,6 +275,12 @@ ol li {
         max-width: 250px;
         border: 0;
         }
+        
+.about {
+        width: 400px;
+        padding: 20px;
+        font-size: 0.8em;
+       }
     }
 
 @media (min-width: 992px) {
@@ -299,11 +310,13 @@ ol li {
         display: flex;
         justify-content: space-between;
     }
-    #about_the_team {
-    margin-top: 0px;
+    #team {
     display: flex;
     }
     .about {
+        padding: 30px;
+        font-size: 1.2em;
         flex: 1;
+        
     }
 }
