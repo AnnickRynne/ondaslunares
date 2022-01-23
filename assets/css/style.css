@@ -11,11 +11,11 @@ body {
     font-weight: 400;
     color: #324960;
     margin: 0;
+    /* width: 100%; */
 }
 
 header {
     width: 100%;
-    height: 75px;
     margin-top: 0px;
     height: auto;
     max-height: 340px;
@@ -23,10 +23,6 @@ header {
     z-index: 1;
     position: fixed;
 }
-/* 
-main {
-    margin-top: 130px;
-} */
 
 /* Logo: currently text but will be replaced by a designed logo image in the future */
 #logo {
@@ -153,6 +149,7 @@ span {
 #container_2 {
     background-color:#324960;
     padding: 20px;
+    margin:  auto;
 }
 
 #v2_img_130 {
@@ -177,9 +174,6 @@ ol li {
 }
 .v2 {
     max-width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #bd924d;
-    
     padding: 0;
     flex: 1;
 }
@@ -187,14 +181,16 @@ ol li {
 /* CONTAINER 3: Mokeup images*/
 #container_3 {
     background-color:#324960;
-    padding: 2em;
+    margin: 0 auto;
 }
 
 .photo_div {
-    max-width: 300px;
-    max-height: 200px;
+    width: 300px;
+    height: 200px;
     box-sizing: border-box;
-    }
+    margin-top: 2em;
+    margin-left: 2em;
+}
 
  .mokeup_img {
      max-width: 300px;
@@ -229,11 +225,101 @@ ol li {
     font-size: 0.8em;
     padding: 2%;
 }
-#footer {
-    height: 300px;
-    background-color: #d9dcdf;
+
+/* SECTION 4: "GET IN TOUCH */
+#contact_container {
+    background-color:#eeece8;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
+ /* FORM */
+#contact_form {
+    padding-bottom: 10px;
+}
+
+ #fname, #lname, #email {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #bd924d;
+ }
+
+#message {
+    width: 280px;
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid #bd924d;
+}
+
+.button {
+    color: #324960;
+    background-color:  #bd924d;
+    border-radius: 3px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 0.8em;
+    display: block;
+}
+
+.button:hover {
+    background-color:#324960;
+    color: #fafafa;
+}
+
+/* CONTACT TEXT */
+#contact_txt {
+    padding: 10px 20px 20px 10px;
+  }
+
+h2#visit {
+     margin-top: 1.5em;
+}
+
+/* RESPONSIVE GOOGLE MAP */
+
+ #map_responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height:0;
+ }
+ 
+ #map_responsive iframe{
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     padding-right: 20px;
+     position: absolute;
+ }
+
+/* FOOTER*/
+  #footer {
+    height: 75px;
+    background-color:#eeece8;
+    bottom: 0px;
+   }
+
+.footer_icons {
+    text-align: center;
+}
+
+.footer_icons > li {
+    display: inline;
+}
+
+.footer_icons i {
+    font-size: 0.8em;
+    margin: 1%;
+    padding: 5%;
+    color:#bd924d;
+}
+
+.footer_icons i:hover {
+    color: #324960;
+}
 
 /* MEDIA QUERIES */
 
@@ -251,7 +337,10 @@ ol li {
     .v2 {
         border: 0;
        }
+    .photo_div {
+        margin: 1em auto;
     }
+}
 
 @media (min-width: 576px) {
     #header {
@@ -263,13 +352,15 @@ ol li {
     #menu {
         font-size: 0.8em;
     }
-    
-    #hero_intro {
+        #hero_intro {
         width: 30%;
         height: 20%;
         padding: 20px;
         font-size: 0.8em;
-         }       
+         } 
+    .photo_div {
+       margin: 1.5em auto;
+    }
     #v2_img_130 {
         max-width: 400px;
         max-height: 400px;
@@ -278,8 +369,17 @@ ol li {
     .v2 {
         max-width: 250px;
         border: 0;
-        }   
+    }   
+    #fname, #lname, #email {
+        width: 400px; 
     }
+    #message {
+        width: 500px;
+    }
+    .footer_icons i {
+        font-size: 1.2em;
+    }
+}
 
 @media (min-width: 992px) {
     #logo {
@@ -313,11 +413,32 @@ ol li {
      #container_3 {
         display: flex;
         justify-content: space-between;
-    }
+     }
+     .photo_div {
+        max-width: 300px;
+        max-height: 200px;
+        margin: 2em auto;
+     }
     #team_container {
     display: flex;
     }
     .about_div {
     flex: 1;
+    }
+    #contact_container {
+        background-color:#eeece8;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding-bottom: 50px;
+    }  
+    #fname, #lname, #email {
+        width: 365px; 
+    }
+    #message {
+        width: 500px;
+    }
+    .footer_icons i {
+        font-size: 1.5em;
     }
 }

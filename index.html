@@ -9,8 +9,7 @@
     <meta name="keywords" content="construction of villas, building appartments, palmela village, Quanta do Anjo, Setubal">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Ondas Lunares</title>
-
+    <title>Testing Project 1</title>
 </head>
 
 <body>
@@ -23,7 +22,7 @@
         <!-- Navigation Bar -->
         <nav>
             <ul id="menu">
-                <li><a href="#contact" aria-label="Go to the Contact section">Contact</a></li>
+                <li><a href="#get_in_touch" aria-label="Go to the Contact section">Contact</a></li>
                 <li><a href="#team_title" aria-label="Go to the Team section">Team</a></li>
                 <li><a href="#project_v2" aria-label="Go to the Project section">Project</a></li>
                 <li><a href="#hero" aria-label="Go to the top of the page"><i class="fas fa-home"></i></a></li>
@@ -38,7 +37,7 @@
             </div>
             <div id="hero_intro">
                     <h2>NEW DEVELOPMENT</h2>
-                    <h3>High standing villas at Quanta do Anjo...</h3>
+                    <h3>Luxurious villas at Quinta do Anjo...</h3>
                     <h4>Buy now, move in next winter!</h4>
             </div>
         </section>
@@ -88,7 +87,7 @@
                         <li>Circulation: 4,92 sqm</li>
                     </ol> 
                 </div>
-                <img id="v2_img_130" src="assets\images\plan_130_500x500.png" alt="Ground floor and first floor plans showing the location of each numbered room as per the list">
+                <img id="v2_img_130" src="assets\images\plan_130_500x500.png" alt="Ground floor and first floor plans">
                 <div class="v2">
                     <h2>Ground Floor Area: 77,98 sqm</h2>
                     <ol start="5">
@@ -107,7 +106,7 @@
             <!-- Container 3: Moke-up examples of the new villa interiors -->
             <div id=container_3 class="container_project">
                 <div class="photo_div">
-                    <img class="mokeup_img" src="assets\images\living_room_1_300x200.png" alt="mokeup image of a modernly furnished living room, with open plan kitchen, sitting area and dining area">
+                    <img class="mokeup_img" src="assets\images\living_room_1_300x200.png" alt="mokeup of the living room, with an open plan kitchen, sitting and dining areas">
                 </div>
                 <div class="photo_div">
                     <img class="mokeup_img" src="assets\images\living_room_2_300x200.png" alt="mokeup of the living-room from a different angle, when standing near the french windows">
@@ -158,7 +157,7 @@
                 </p>
             </div>
             <div class="about_div">
-                <img src="assets\images\team_400x300.png" alt="Youthful professional people, 2 men and 2 women, standing in front of office bookshelves and cheering">
+                <img src="assets\images\team_400x300.png" alt="people in a meeting, looking at a woman's computer screen">
                 <h2>The Team</h2>
                 <p>
                 Our tradesmen are professional, skillful and talented labourers, including plumbers, carpenters and
@@ -170,43 +169,64 @@
             </div>
         </section>
 
-
-
-        <!-- Section 4: Contact Us -->
-        <section id="contact">
-            <h1 class="center_heading">GET IN TOUCH WITH US</h1>
-            <div>
-                <p>
-                    If you wish to receive further information, please fill out the form below or call us on workdays between 9am and 6pm local time at (+351) 212 071 XXX.<br>
-                    We should respond within a workday. Check our work on social media: Click on the icons for our LindkedIn and Facebook pages on the footer. Or do not hesitate to email us.</p>
+        <!-- Section 4: GET IN TOUCH! -->
+        <h1 id="get_in_touch" class="center_heading">GET IN TOUCH</h1>
+        <section id="contact_container"> 
+           <!-- Contact: Form -->
+            <form id= "contact_form" method="post" action="https://formdump.codeinstitute.net/">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="first_name" required>
+                    <br>      
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="last_name" required>
+                     <br>   
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email_address" required>
+                    <br>
+                    <label for="message">MESSAGE</label>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Your message" cols="80" rows="5"></textarea>
+                    <br>
+                    <input  type="submit" value="SEND" class="button">
+            </form>     
+           <!-- Contact: Text -->
+            <div id="contact_txt">
+                <h2>Ondas Lunares Head Office</h2>
+                <p>Ondas Lunares - LDA<br>
+                    Estrada do Cemiterio<br>
+                    CCI4792<br>
+                    2950-306 Palmela<br>
+                    Portugal<br>
+                <p><i class="fas fa-phone-square"></i> (+351) 211 223 XXX<br>
+                    <i class="fas fa-envelope-square"></i>office@ondaslunares.com<br></p>
+                    <h2 id="visit">Visit the construction site</h2>
+                <p>Palmela Village<br>
+                    2950-580 Quinta Do Anjo<br>
+                    Portugal<br>
                 </p>
-            </div id="form_container">
-            <fieldset>
-                <legend>Your details</legend>
-        
-                <div>
-                    <label for="name-field" class="block-label">NAME:</label>
-                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-                </div>
-                <div>
-                    <label for="email-field" class="block-label">EMAIL:</label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                </div>
-        
-            <div>
-                <label for="content">MESSAGE:</label>
+                <p>Find more information 
+                    and photos on the Palmela Villge consortium website by clicking <a rel="external" target="_blank" href="https://www.apcapv.org/">here</a>.</p>
             </div>
-
-        
-            </fieldset>
-        
-            <div>
-
+            <!-- Contact: Google Map -->
+            <div id="map_responsive">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=palmela%20village,%20Quanto%20do%20Anjo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
             </div>
         </section>
-
-
-        <footer>Icons</footer>
+                    
+            <footer>
+            <ul class="footer_icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                 <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></i></a>
+                </li>            
+            </ul>
+        </footer>
+    </footer>
     </main>
     <!-- font awesome script  -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
