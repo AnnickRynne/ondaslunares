@@ -19,7 +19,7 @@ header {
     margin-top: 0px;
     height: auto;
     max-height: 340px;
-    background-color: #fff;
+    background-color:#fff;
     z-index: 1;
     position: fixed;
 }
@@ -30,10 +30,11 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.8em;
     font-weight: 500;
-    color: #bd924d;
+    color: #9c6813;
     margin-left: 2%;
 }
 
+/* Menu - navigation bar */
 #menu {
     font-size: 0.6em;
     font-weight: 500;
@@ -47,7 +48,7 @@ header {
 
 #menu a {
     text-decoration: none;
-    color: #bd924d;
+    color: #9c6813;
 }
 
 #menu a:hover {
@@ -82,17 +83,17 @@ p {
 #hero_image {
     height: 600px;
     width: 100%;
-    background: url("../images/bg_img_2400x1600.jpg") no-repeat center center;
+    background: url("../images/hero_img.jpg") no-repeat center center;
 }
 
 #hero_intro {
     background-color: #fff;
     opacity: 0.75;
-    font-weight: bold;
+    font-weight:bold;
     text-align: center;
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    top:50%;
+    left:50%;
     position: absolute;
 }
 
@@ -102,18 +103,13 @@ p {
     width: 100%;
 }
 
-.container_project {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 span {
     font-size: 0.7em;
     color: #324960;
     padding-top: 20px;
 }
 
-/* CONTAINER 1 */
+/* CONTAINER 1: about Palmela village and the area*/
 #container_1 {
     background-color: #eeece8;
 }
@@ -124,8 +120,7 @@ span {
     flex: 1;
 }
 
-.pal_div>h2,
-h3 {
+.pal_div>h2,h3 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -140,39 +135,38 @@ h3 {
 
 .center_heading {
     text-align: center;
-    color: #bd924d;
+    color: #9c6813;
     font-size: 2em;
     font-weight: 700px;
     margin: 30px 20px;
 }
 
 
-/* CONTAINER 2 */
+/* CONTAINER 2: Villa layout */
 #container_2 {
-    background-color: #324960;
+    background-color:#324960;
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #v2_img_130 {
-    border: #bd924d 8px solid;
+    border:#9c6813 8px solid;
     padding: 0;
 }
 
 ol {
     margin: 0 4em 4em;
-
 }
 
 ol li {
     margin: .75em;
-    color: #fff;
+    color:#fff;
     font-size: 1.2em;
 }
-
-.v2>h2 {
+ 
+.v2 > h2 {
     margin: 3em 2em 4em;
-    color: #bd924d;
+    color:#fff;
 }
 
 .v2 {
@@ -183,40 +177,34 @@ ol li {
 
 /* CONTAINER 3: Mokeup images*/
 #container_3 {
-    background-color: #324960;
-    padding: 20px 20px;
+    background-color:#324960;
+    padding: 20px;
     margin: 0 auto;
 }
 
-.photo_div {
+.mokeup_img {
     width: 300px;
     height: 200px;
     box-sizing: border-box;
-    margin-top: 2em;
-    margin-left: 2em;
-}
-
-.mokeup_img {
-    max-width: 300px;
-    max-height: 200px;
-}
+    margin-top: 20px;
+   }
 
 /* SECTION 3: THE TEAM */
-#team_container {
-    background-color: #eeece8;
+#team_container{
+    background-color:#eeece8;
     width: 100%;
-    margin: auto auto;
-}
+    margin: 0 auto;
+    }
 
 .about_div {
     padding: 2%;
-    color: #fff;
-    background-color: #324960;
+    color:#fff;
+    background-color:#324960;
 }
 
 .about_div img {
     max-width: 100%;
-    display: block;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -230,37 +218,35 @@ ol li {
     padding: 2%;
 }
 
-/* SECTION 4: "GET IN TOUCH */
+/* SECTION 4 CONTACT: "GET IN TOUCH */
 #contact_container {
-    background-color: #eeece8;
+    background-color:#eeece8;
     padding: 20px 20px;
 }
 
-/* FORM */
+ /* CONTACT - FORM */
 #contact_form {
     padding-bottom: 10px;
 }
 
-#fname,
-#lname,
-#email {
+ #fname, #lname, #email {
     width: 250px;
     height: 30px;
     margin-bottom: 20px;
     border-radius: 3px;
-    border: 1px solid #bd924d;
-}
+    border: 1px solid #9c6813;
+ }
 
 #message {
     width: 280px;
     height: 200px;
     border-radius: 3px;
-    border: 1px solid #bd924d;
+    border: 1px solid #9c6813;
 }
 
 .button {
-    color: #324960;
-    background-color: #bd924d;
+    color: #fafafa;
+    background-color:  #9c6813;
     border-radius: 3px;
     padding: 15px 30px 15px 30px;
     text-align: center;
@@ -269,42 +255,51 @@ ol li {
 }
 
 .button:hover {
-    background-color: #324960;
+    background-color:#324960;
     color: #fafafa;
 }
 
-/* CONTACT TEXT */
+/* CONTACT - CONTACT TEXT */
 #contact_txt {
     padding: 10px 20px 20px 10px;
+  }
+
+#contact_txt p > a {
+    color:#324960;
+}
+
+
+#contact_txt p > a:hover {
+    color:#9c6813;
 }
 
 h2#visit {
-    margin-top: 1.5em;
+     margin-top: 1.5em;
 }
 
-/* RESPONSIVE GOOGLE MAP */
+/* CONTACT - RESPONSIVE GOOGLE MAP */
 
-#map_responsive {
+ .map_responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0;
-}
-
-f #map_responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    padding-right: 20px;
-    position: absolute;
-}
+    height:0;
+ }
+ 
+ .map_responsive iframe{
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     padding-right: 20px;
+     position: absolute;
+ }
 
 /* FOOTER*/
 footer {
     height: 75px;
     width: 100%;
-    background-color: #eeece8;
+    background-color:#eeece8;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -313,7 +308,7 @@ footer {
     text-align: center;
 }
 
-.footer_icons>li {
+.footer_icons > li {
     display: inline;
 }
 
@@ -321,7 +316,7 @@ footer {
     font-size: 0.8em;
     margin: 1%;
     padding: 5%;
-    color: #bd924d;
+    color:#9c6813;
 }
 
 .footer_icons i:hover {
@@ -336,66 +331,58 @@ footer {
         height: 20%;
         padding: 15px;
         font-size: 0.6em;
-    }
-
+         }       
     #v2_img_130 {
         max-width: 300px;
         max-height: 300px;
-    }
-
+         }
     .v2 {
         border: 0;
-    }
-
-    .photo_div {
-        margin: 1em auto;
     }
 }
 
 @media (min-width: 576px) {
     #header {
-        max-height: 200px;
+    max-height: 200px;
     }
-
     #logo {
         font-size: 1.2em;
     }
-
     #menu {
         font-size: 0.8em;
     }
-
     #hero_intro {
-        width: 30%;
-        height: 20%;
-        padding: 20px;
-        font-size: 0.8em;
-    }
-
-    .photo_div {
-        margin: 1.5em auto;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: 0.8em;
+    } 
+    
+    .pal_div>img {
+    width: 400px;
+    height: 300px;
     }
 
     #v2_img_130 {
         max-width: 400px;
         max-height: 400px;
-    }
+         }
 
     .v2 {
         max-width: 250px;
         border: 0;
     }
-
-    #fname,
-    #lname,
-    #email {
-        width: 400px;
+    .about_div img {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
     }
-
+    #fname, #lname, #email {
+        width: 400px; 
+    }
     #message {
         width: 500px;
     }
-
     .footer_icons i {
         font-size: 1.2em;
     }
@@ -405,11 +392,9 @@ footer {
     #logo {
         font-size: 2em;
     }
-
     #menu {
         font-size: 1.2em;
     }
-
     #hero_intro {
         width: 35%;
         height: 25%;
@@ -417,67 +402,54 @@ footer {
         font-size: 1.4em;
         line-height: 1.6em;
     }
-
     #v2_img_130 {
         max-width: 500px;
         max-height: 500px;
-    }
-
-    #container_1 {
+    }       
+     #container_1 {
         display: flex;
     }
-
     #container_2 {
         display: flex;
         justify-content: space-between;
     }
-
     .v2 {
         max-width: 600px;
         box-sizing: border-box;
     }
-
-    #container_3 {
+     #container_3 {
         display: flex;
         justify-content: space-between;
-    }
-
-    .photo_div {
-        max-width: 300px;
-        max-height: 200px;
-        margin: 2em auto;
-    }
-
+        flex-wrap: wrap;
+     }
+     .mokeup_img {
+         max-width: 300px;
+         flex: 1;
+     }
+    
     #team_container {
-        display: flex;
+    display: flex;
+    justify-content: space-between;
     }
-
     .about_div {
-        flex: 1;
+    flex: 1;
     }
-
     #contact_container {
-        background-color: #eeece8;
+        background-color:#eeece8;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
         padding-bottom: 50px;
+    }  
+    #fname, #lname, #email {
+        width: 365px; 
     }
-
-    #fname,
-    #lname,
-    #email {
-        width: 365px;
-    }
-
     #message {
         width: 500px;
     }
-
     footer {
         height: 150px;
     }
-
     .footer_icons i {
         font-size: 1.5em;
     }
