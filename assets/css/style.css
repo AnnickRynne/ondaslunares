@@ -103,7 +103,7 @@ p {
     width: 100%;
 }
 
-span {
+.caption {
     font-size: 0.7em;
     color: #324960;
     display: block;
