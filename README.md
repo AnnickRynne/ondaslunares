@@ -1,5 +1,7 @@
 
 
+<
+
 <h1 text-align="center">ONDAS LUNARES</h1>
 
 Click [here]( https://annickrynne.github.io/ondaslunares/) to access the live project.
@@ -14,19 +16,19 @@ Click [here]( https://annickrynne.github.io/ondaslunares/) to access the live pr
 <br>
 [FEATURES](#features)<br>
 [Header](#header)<br>
-[Current Project](#current_project)<br>
-[About Us](about_us)<br>
-[Contact Us](contact_us)<br>
+[Project](#project)<br>
+[Team](#team)<br>
+[Get in Touch](get_in_touch)<br>
 [Footer](footer)<br>
 <br>
 [DEPLOYMENT](deployment)<br>
 <br>
 
 # INTRODUCTION
-This website is designed for a small start-up construction company based in Palmela Village, a holiday resort located 30 minutes south of Lisbon, Portugal. The construction of the resort was interrupted in 2010 during the crash. Several developers are now investing in the resort, as there is a severe shortage of affordable housing in Lisbon. The company Ondas Lunares was created in December 2022. Their first project is to build approximately 15 villas. 
+This website is designed for a small start-up construction company based in Palmela Village, a holiday resort located 30 minutes south of Lisbon, Portugal. The construction of the resort was interrupted in 2010 during the crash. Several developers are now investing in the resort, as there is a severe shortage of affordable housing in Lisbon. The company Ondas Lunares was created in December 2021. Their first project is to build approximately 15 villas. 
 
 <p text-align="center">
-  <img src="enter relative link"/>
+  <div style="text-align: center;"><img src="docs/responsive.png"/ alt="url displayed in 4 devices of different sizes"></div>
 </p>
 
 
@@ -37,28 +39,41 @@ The target audience: Mainly, individuals who wish to buy a new-built villa, to u
 1. First Time Visitor Goals
 
    - As a potential client, I want to navigate the site easily 
-   - I want to know what services the company offers
+   - I want to know what the company offers 
 
 
 2. Returning Visitor Goals
 
-   - I want visuals and a description of the current projects (plans, staging images, photos)
+   - I want access to more information on the villas, the area, the construction company
    - I want to find the Ondas Lunares contact details
    - I can request further information by mail or phone
 
 3. Frequent User Goals
 
-   - I expect to see updates (mostly, visuals) on the progress of the current construction project(s)
+   - I expect to see updates on the progress of the current construction project(s) and photos of the completed first villa
+   - I'm interested in the way the company expands
+   - I want to see the future projects and maybe join a mailing list for a newsletter 
 
 
 ## Design
 
+I looked at various architects websites for inspiration regarding layout, content, style... and found the sites below very inspiring:
+-  [Linehan Construction & Restoration](https://architects.linehanconstruction.com/?gclid=Cj0KCQiAlMCOBhCZARIsANLid6Ze4Z-QJrfD01P0NZ2F8L2rwN5KyqBbYHwgyPJ2bXREqr5H2X0VJ70aAsqmEALw_wcB)
+- [Wallnut](https://www.wallnut.pt/)
+
+
 1. Colour Scheme
-    The name of the company means "moon waves". I looked at some online moonlight photos and  paintings that inspired me to use shades of blue and ochre (like here: ["Pleine-lune"](https://quilteuseforever.files.wordpress.com/2014/11/pleine-lune.jpg)). Lisbon is near the sea and the land is mostly sand, so I think that the colours will go well with the photos of the area, which is very dry in the summer.
+
+    The name of the company means "moon waves". I looked at some online moonlight photos and  paintings that inspired me to use shades of blue, ochre and off-white (like here: ["Pleine-lune"](https://quilteuseforever.files.wordpress.com/2014/11/pleine-lune.jpg)). I picked 3 colours: dark-slate-gray, sienna, linen.
+    However, I had to replace the 'peru' colour by a darker shade to pass the accessibility requirements.
+    
+ <div style="text-align: center;"> 
+ <img src="docs/colors.png" alt="color palette for dark-slate-gray, sienna, linen">
+ </div>
 
 2. Typography
 
-     The chosen font for this site is Work Sans. It looks elegant and easy to read. It works well on this one page site: [Linehan Construction & Restoration](https://architects.linehanconstruction.com/?gclid=Cj0KCQiAlMCOBhCZARIsANLid6Ze4Z-QJrfD01P0NZ2F8L2rwN5KyqBbYHwgyPJ2bXREqr5H2X0VJ70aAsqmEALw_wcB). The fallback font is Sans Serif (Work Sans being 'sans' serif).
+     The chosen font for this site is Work Sans. It looks elegant and easy to read. It works well on the Linehan Construction & Restoration website. The fallback font is Sans Serif (Work Sans being 'sans' serif.
    
 3. Imagery
 
@@ -85,11 +100,11 @@ I made this decision after reading *"Website Battles: One-Page Website vs Multi-
 
 ## Header
 
-## Current Project
+## Project
 
-## About Us
+## Team
 
-## Contact Us
+## Get in Touch
 
 ## Footer
 
@@ -103,5 +118,5 @@ This site was deployed to GitHub pages as per the following steps:<br>
    <li>Scroll down to the bottom of the page, to the GitHub Pages section and you will see the link to the website</li>
 </ul>
 
-[Live site]( https://annickrynne.github.io/ondaslunares/)
+[Live site](https://annickrynne.github.io/ondaslunares/)
 
