@@ -19,7 +19,7 @@ header {
     margin-top: 0px;
     height: auto;
     max-height: 340px;
-    background-color:#fff;
+    background-color: #fff;
     z-index: 1;
     position: fixed;
 }
@@ -89,11 +89,11 @@ p {
 #hero_intro {
     background-color: #fff;
     opacity: 0.75;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
     transform: translate(-50%, -50%);
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     position: absolute;
 }
 
@@ -106,7 +106,8 @@ p {
 span {
     font-size: 0.7em;
     color: #324960;
-    padding-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 /* CONTAINER 1: about Palmela village and the area*/
@@ -117,12 +118,12 @@ span {
 .pal_div {
     padding: 20px;
     margin: 0 10px 0 10px;
-    flex: 1;
 }
 
-.pal_div>h2,h3 {
+.pal_div>h2,
+h3 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .pal_div>img {
@@ -144,67 +145,60 @@ span {
 
 /* CONTAINER 2: Villa layout */
 #container_2 {
-    background-color:#324960;
+    background-color: #324960;
     padding: 20px;
     margin: 0 auto;
 }
 
 #v2_img_130 {
-    border:#9c6813 8px solid;
+    border: #9c6813 8px solid;
     padding: 0;
-}
-
-ol {
-    margin: 0 4em 4em;
+    margin: 20px 0;
 }
 
 ol li {
-    margin: .75em;
-    color:#fff;
-    font-size: 1.2em;
-}
- 
-.v2 > h2 {
-    margin: 3em 2em 4em;
-    color:#fff;
+    line-height: 30px;
+    margin-left: 55px;
+    color: #fff;
+    font-size: 0.8em;
 }
 
-.v2 {
-    max-width: 300px;
-    padding: 0;
-    flex: 1;
+.v2>h2 {
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
 }
 
 /* CONTAINER 3: Mokeup images*/
 #container_3 {
-    background-color:#324960;
-    padding: 20px;
-    margin: 0 auto;
+    background-color: #324960;
 }
 
 .mokeup_img {
     width: 300px;
     height: 200px;
-    box-sizing: border-box;
-    margin-top: 20px;
-   }
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 /* SECTION 3: THE TEAM */
-#team_container{
-    background-color:#eeece8;
-    width: 100%;
+#team_container {
+    background-color: #324960;
     margin: 0 auto;
-    }
+}
 
 .about_div {
-    padding: 2%;
-    color:#fff;
-    background-color:#324960;
+    color: #fff;
+    padding: 5px 10px 20px 5px;
 }
 
 .about_div img {
-    max-width: 100%;
-    height: 300px;
+    width: 350px;
+    height: 250px;
+    display: block;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
@@ -214,28 +208,31 @@ ol li {
 }
 
 .about_div p {
-    font-size: 0.8em;
-    padding: 2%;
+    font-size: normal;
+    padding: 5px;
+    margin: 0 30px;
 }
 
 /* SECTION 4 CONTACT: "GET IN TOUCH */
 #contact_container {
-    background-color:#eeece8;
+    background-color: #eeece8;
     padding: 20px 20px;
 }
 
- /* CONTACT - FORM */
+/* CONTACT - FORM */
 #contact_form {
     padding-bottom: 10px;
 }
 
- #fname, #lname, #email {
+#fname,
+#lname,
+#email {
     width: 250px;
     height: 30px;
     margin-bottom: 20px;
     border-radius: 3px;
     border: 1px solid #9c6813;
- }
+}
 
 #message {
     width: 280px;
@@ -246,7 +243,7 @@ ol li {
 
 .button {
     color: #fafafa;
-    background-color:  #9c6813;
+    background-color: #9c6813;
     border-radius: 3px;
     padding: 15px 30px 15px 30px;
     text-align: center;
@@ -255,51 +252,51 @@ ol li {
 }
 
 .button:hover {
-    background-color:#324960;
+    background-color: #324960;
     color: #fafafa;
 }
 
 /* CONTACT - CONTACT TEXT */
 #contact_txt {
     padding: 10px 20px 20px 10px;
-  }
+}
 
-#contact_txt p > a {
-    color:#324960;
+#contact_txt p>a {
+    color: #324960;
 }
 
 
-#contact_txt p > a:hover {
-    color:#9c6813;
+#contact_txt p>a:hover {
+    color: #9c6813;
 }
 
 h2#visit {
-     margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 /* CONTACT - RESPONSIVE GOOGLE MAP */
 
- .map_responsive {
+.map_responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height:0;
- }
- 
- .map_responsive iframe{
-     left: 0;
-     top: 0;
-     height: 100%;
-     width: 100%;
-     padding-right: 20px;
-     position: absolute;
- }
+    height: 0;
+}
+
+.map_responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    position: absolute;
+}
 
 /* FOOTER*/
 footer {
     height: 75px;
     width: 100%;
-    background-color:#eeece8;
+    background-color: #eeece8;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -308,7 +305,7 @@ footer {
     text-align: center;
 }
 
-.footer_icons > li {
+.footer_icons>li {
     display: inline;
 }
 
@@ -316,7 +313,7 @@ footer {
     font-size: 0.8em;
     margin: 1%;
     padding: 5%;
-    color:#9c6813;
+    color: #9c6813;
 }
 
 .footer_icons i:hover {
@@ -331,70 +328,106 @@ footer {
         height: 20%;
         padding: 15px;
         font-size: 0.6em;
-         }       
+    }
+
     #v2_img_130 {
         max-width: 300px;
         max-height: 300px;
-         }
-    .v2 {
-        border: 0;
     }
 }
 
 @media (min-width: 576px) {
-    #header {
-    max-height: 200px;
-    }
     #logo {
         font-size: 1.2em;
     }
+
     #menu {
         font-size: 0.8em;
     }
+
     #hero_intro {
-    width: 30%;
-    height: 20%;
-    padding: 20px;
-    font-size: 0.8em;
-    } 
-    
+        width: 30%;
+        height: 20%;
+        padding: 20px;
+        font-size: 0.8em;
+    }
+
     .pal_div>img {
-    width: 400px;
-    height: 300px;
+        width: 400px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pal_div p {
+        padding: 20px 55px;
     }
 
     #v2_img_130 {
-        max-width: 400px;
-        max-height: 400px;
-         }
+        width: 500px;
+        height: 500px;
+        display: block;
+        margin: 30px auto;
+    }
 
-    .v2 {
-        max-width: 250px;
-        border: 0;
+    ol li {
+        line-height: 50px;
+        margin-left: 80px;
+        color: #fff;
+        font-size: 1.2em;
     }
-    .about_div img {
-    width: 400px;
-    height: 300px;
-    margin: 0 auto;
+
+    .v2>h2 {
+        line-height: 75px;
+        font-size: 1.8em;
     }
-    #fname, #lname, #email {
-        width: 400px; 
+
+    #contact_form {
+        margin-left: 20px;
     }
+
+    #fname,
+    #lname {
+        width: 400px;
+    }
+
+    #email {
+        width: 365px;
+    }
+
     #message {
         width: 500px;
     }
+
     .footer_icons i {
         font-size: 1.2em;
     }
 }
 
+@media (min-width: 768px) {
+    ol li {
+        line-height: 50px;
+        margin-left: 230px;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    #contact_form,
+    #contact_txt {
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+}
+
 @media (min-width: 992px) {
     #logo {
-        font-size: 2em;
+        font-size: 1.8em;
     }
+
     #menu {
         font-size: 1.2em;
     }
+
     #hero_intro {
         width: 35%;
         height: 25%;
@@ -402,55 +435,97 @@ footer {
         font-size: 1.4em;
         line-height: 1.6em;
     }
+
+    #container_1 {
+        display: flex;
+    }
+
+    .pal_div {
+        flex: 1;
+    }
+
+    .pal_div>img {
+        width: 300px;
+        height: 200px;
+        bottom: 0px;
+        margin-top: 5px;
+    }
+
     #v2_img_130 {
         max-width: 500px;
         max-height: 500px;
-    }       
-     #container_1 {
-        display: flex;
     }
-    #container_2 {
-        display: flex;
-        justify-content: space-between;
-    }
-    .v2 {
-        max-width: 600px;
-        box-sizing: border-box;
-    }
-     #container_3 {
+
+    #container_3 {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-     }
-     .mokeup_img {
-         max-width: 300px;
-         flex: 1;
-     }
-    
+    }
+
+    .mokeup_img {
+        width: 300px;
+        height: 200px;
+    }
+
     #team_container {
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
+
     .about_div {
-    flex: 1;
+        flex: 1;
     }
+
+    .about_div p {
+        font-size: normal;
+        padding: 5px;
+        margin: 0 55px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .about_div p {
+        font-size: normal;
+        padding: 5px;
+        margin: 0 10px;
+    }
+
     #contact_container {
-        background-color:#eeece8;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
         padding-bottom: 50px;
-    }  
-    #fname, #lname, #email {
-        width: 365px; 
     }
-    #message {
-        width: 500px;
+
+    #contact_form,
+    #contact_txt {
+        margin-left: 30px;
     }
-    footer {
-        height: 150px;
+}
+
+@media (min-width: 1668px) {
+    #logo {
+        font-size: 2em;
     }
-    .footer_icons i {
-        font-size: 1.5em;
+
+    #container_2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .v2 {
+        padding: 30px;
+        flex: 1;
+    }
+
+    ol li {
+        line-height: 50px;
+        margin-left: 50px;
+    }
+
+    .about_div p {
+        margin: 0 90px;
     }
 }
