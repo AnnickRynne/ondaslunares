@@ -1,30 +1,10 @@
 
 
-<
 
 <h1 text-align="center">ONDAS LUNARES</h1>
 
-Click [here]( https://annickrynne.github.io/ondaslunares/) to access the live project.
+Click on [Ondas Lunares](https://annickrynne.github.io/ondaslunares/) to access the live project.
 
-# TABLE OF CONTENTS
-[INTRODUCTION](#introduction)
-
-[EXPERIENCE](#experience)<br>
-[Stories](#stories)<br>
-[Design](#design)<br>
-[Wireframes](#wireframes)<br>
-<br>
-[FEATURES](#features)<br>
-[Header](#header)<br>
-[Project](#project)<br>
-[Team](#team)<br>
-[Get in Touch](get_in_touch)<br>
-[Footer](footer)<br>
-Future features]<future_features><br>
-<br>
-[TECHNOLOGIES USED](#technologies_used)
-[DEPLOYMENT](deployment)<br>
-<br>
 
 # INTRODUCTION
 This website is designed for a small start-up construction company based in Palmela Village, a holiday resort located 30 minutes south of Lisbon, Portugal. The construction of the resort was interrupted in 2010 during the crash. Several developers are now investing in the resort, as there is a severe shortage of affordable housing in Lisbon. The company Ondas Lunares was created in December 2021. Their first project is to build approximately 15 villas. 
@@ -109,35 +89,35 @@ The logo, in the top left corner, is the name of the company. It's just text at 
 The hero image contains a centered heading which should catch the attention. It is unlikely that visitors will know much about the place itself however. I first present what is attractive about the area on the landing page, under the hero image. The hero image itself suggests that the village is in the countryside and the villas are modern. 
 
  <div style="text-align: center;">
- <img src="docs/landing.png" alt="hero image and 3 images below it showing the area">
+ <img src="docs/landing.png" alt="hero image and Palmela Village section">
 </div>
 
 ## Project
 Assuming that the visitor likes the area, he/she will scroll down or navigate to the 'project section'. It's a basic layout of the V2 model villa to be built. To visualize the rooms, 5 mokeups have been added below the layout section.
 
  <div style="text-align: center;">
- <img src="docs/v2_project.png" alt="hero image and 3 images below it showing the area">
+ <img src="docs/v2_project.png" alt="Layout section and 5 mockups">
 </div>
 
 ## Team
 Showing photos and giving some information on the people who run the company and the staff inspires confidence; it is a common feature on most construction/architects websites.
 
  <div style="text-align: center;">
- <img src="docs/team.png" alt="hero image and 3 images below it showing the area">
+ <img src="docs/team.png" alt="the Team section">
 </div>
 
 ## Get in Touch
 A potential buyer might want to receive more information, wish to speak to someone or visit Palmela village. This section should cover it.
 
  <div style="text-align: center;">
- <img src="docs/contact.png" alt="hero image and 3 images below it showing the area">
+ <img src="docs/contact.png" alt="Get in Touch section">
 </div>
 
 ## Footer
 The social media icons can be found here. 
 
  <div style="text-align: center;">
- <img src="docs/footer.png" alt="hero image and 3 images below it showing the area">
+ <img src="docs/footer.png" alt="footer with 3 social media icons">
 </div>
 
 ## Future features
@@ -164,6 +144,27 @@ The social media icons can be found here.
       - Fonts Ninja, Eye Dropper, Dimensions, Image Size Info: Used when doing research on fonts, colors and images
       - WAVE Evalutation Tool: Used when testing accessibility
 
+# TESTING
+The validators below were used to check the errors and warnings. I had 1 error and 1 warning. The html code I copied from Google Map to display a map in my Get in Touch section was obsolete. I had to fix it by using CSS code. I also had to replace each h1 at the top of each section by h2 headings. The only remaining h1 being used is the Ondes Lunares logo. 
+
+   - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: 0 errors/warnings
+   - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: 0 errors/warnings
+
+The website was successfully tested on Chrome, Microsoft Edge, Firefox and Safari, using 2 mobile phones (Lenovo P2a42 V7.0 and Poco MIUI 12, a DELL laptop and an Ipad Pro 10.5". 
+
+# ACCESSIBILITY
+I use the WAVE chrome extension to test accessibility. It first showed 7 contrast errors. This was fixed by changing a color (see my comments under "Design"). 
+
+ <div style="text-align: center;">
+ <img src="docs/wave.png" alt="wave results: no issues">
+</div>
+
+I tested the site in an incognito window to get the Lighthouse results: 
+
+
+ <img src="docs/lighthouse.png" alt="Lighthouse results: between 80 and 100">
+
+<br>
 
 # DEPLOYMENT
 This site was deployed to GitHub pages as per the following steps:<br>
@@ -176,3 +177,11 @@ This site was deployed to GitHub pages as per the following steps:<br>
 
 [Live site](https://annickrynne.github.io/ondaslunares/)
 
+
+# CREDITS
+
+ - Code: The social icons in the footer came from the "Love Running" project and I added the css:hover 
+- Content: Written by myself
+- Media: I put some captions for the images that were found on Pexels or belonged to IAD Portugal, who are partners. The images in the Team section are also from Pexels.
+- Acknowledgements: Ed at Tutor Support for his advice on Google Map, Kasia and my cohort classmates for sharing useful information every day
+- All the developers who post helpful videos on CSS Flexbox and Grids on YouTube
