@@ -20,7 +20,9 @@ Click [here]( https://annickrynne.github.io/ondaslunares/) to access the live pr
 [Team](#team)<br>
 [Get in Touch](get_in_touch)<br>
 [Footer](footer)<br>
+Future features]<future_features><br>
 <br>
+[TECHNOLOGIES USED](#technologies_used)
 [DEPLOYMENT](deployment)<br>
 <br>
 
@@ -97,16 +99,70 @@ I made this decision after reading *"Website Battles: One-Page Website vs Multi-
 
     
 # FEATURES
+The website is to inform potential buyers about the construction of new villas at Palmela Village. The buyers are most likely to be Lisbon commuters, investors, holiday makers. 
 
 ## Header
+The logo, in the top left corner, is the name of the company. It's just text at the moment. The navigation menu, on the right, is short enough to be seen on small devices. I chose a fixed position for the header for a good visibility and convenience.
+ <div style="text-align: center;"><img src="docs/navbar.png" alt="horizontal navigation bar with 4 links"></div>
+
+## Palmela Village
+The hero image contains a centered heading which should catch the attention. It is unlikely that visitors will know much about the place itself however. I first present what is attractive about the area on the landing page, under the hero image. The hero image itself suggests that the village is in the countryside and the villas are modern. 
+
+ <div style="text-align: center;">
+ <img src="docs/landing.png" alt="hero image and 3 images below it showing the area">
+</div>
 
 ## Project
+Assuming that the visitor likes the area, he/she will scroll down or navigate to the 'project section'. It's a basic layout of the V2 model villa to be built. To visualize the rooms, 5 mokeups have been added below the layout section.
+
+ <div style="text-align: center;">
+ <img src="docs/v2_project.png" alt="hero image and 3 images below it showing the area">
+</div>
 
 ## Team
+Showing photos and giving some information on the people who run the company and the staff inspires confidence; it is a common feature on most construction/architects websites.
+
+ <div style="text-align: center;">
+ <img src="docs/team.png" alt="hero image and 3 images below it showing the area">
+</div>
 
 ## Get in Touch
+A potential buyer might want to receive more information, wish to speak to someone or visit Palmela village. This section should cover it.
+
+ <div style="text-align: center;">
+ <img src="docs/contact.png" alt="hero image and 3 images below it showing the area">
+</div>
 
 ## Footer
+The social media icons can be found here. 
+
+ <div style="text-align: center;">
+ <img src="docs/footer.png" alt="hero image and 3 images below it showing the area">
+</div>
+
+## Future features
+- A proper logo designed in Illustrator or similar
+- A Portuguese version of the whole website; maybe other languages will be added
+- Photos of the new villas
+- New villa models with plans
+<br>
+
+# TECHNOLOGIES USED
+## Languages
+- HTML
+- CSS
+## Frameworks
+   - Google Fonts: Used to import the 'Work Sans' font into the style.css file 
+   - Font Awesome: Used the home icon in the header menu and the social media icons in the footer for UX and design reasons
+   - Git: Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+   - GitHub: Used to store the projects code after being pushed from Git
+
+## Programmes and tools
+   - Photoshop and Paint: used to resize images and edit photos for the website
+   - Balsamiq: Used to create the wireframes during the design process
+   - Chrome extensions: 
+      - Fonts Ninja, Eye Dropper, Dimensions, Image Size Info: Used when doing research on fonts, colors and images
+      - WAVE Evalutation Tool: Used when testing accessibility
 
 
 # DEPLOYMENT

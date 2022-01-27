@@ -9,10 +9,10 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    font-size: 100%;
     color: #324960;
     margin: 0;
-    /* width: 100%; */
-}
+   }
 
 header {
     width: 100%;
@@ -61,12 +61,6 @@ header {
     line-height: 75px;
 }
 
-h1,
-h2,
-h3 {
-    font-weight: 700;
-}
-
 p {
     padding-top: 1.5em;
 }
@@ -99,7 +93,6 @@ p {
 
 /* SECTION 2: PROJECT - 3 containers */
 #project {
-    height: 900x;
     width: 100%;
 }
 
@@ -139,7 +132,6 @@ h3 {
     text-align: center;
     color: #9c6813;
     font-size: 2em;
-    font-weight: 700px;
     margin: 30px 20px;
 }
 
@@ -209,7 +201,7 @@ ol li {
 }
 
 .about_div p {
-    font-size: normal;
+    font-size: 1em;
     padding: 5px;
     margin: 0 30px;
 }
@@ -295,7 +287,7 @@ h2#visit {
 
 /* FOOTER*/
 footer {
-    height: 75px;
+    height: 150px;
     width: 100%;
     background-color: #eeece8;
     margin: 0 auto;
@@ -479,7 +471,6 @@ footer {
     }
 
     .about_div p {
-        font-size: normal;
         padding: 5px;
         margin: 0 55px;
     }
@@ -488,7 +479,6 @@ footer {
 @media (min-width: 1200px) {
 
     .about_div p {
-        font-size: normal;
         padding: 5px;
         margin: 0 10px;
     }
