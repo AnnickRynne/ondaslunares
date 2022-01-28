@@ -17,7 +17,7 @@ This website is designed for a small start-up construction company based in Palm
 # EXPERIENCE (UX)
 The target audience: Mainly, individuals who wish to buy a new-built villa, to use as a holiday home or a permanent home, but also people who sell villas (estate agents, investors...).
 
-## Stories
+## User Stories
 1. First Time Visitor Goals
 
    - As a potential client, I want to navigate the site easily 
