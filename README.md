@@ -147,8 +147,14 @@ The social media icons can be found here.
 # TESTING
 The validators below were used to check the errors and warnings. I had 1 error and 1 warning. The html code I copied from Google Map to display a map in my Get in Touch section was obsolete. I had to fix it by using CSS code. I also had to replace each h1 at the top of each section by h2 headings. The only remaining h1 being used is the Ondes Lunares logo. 
 
-   - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: 0 errors/warnings
-   - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: 0 errors/warnings
+   - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fannickrynne.github.io%2Fondaslunares%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - Results: 0 errors/warnings
+
+ <img src="docs/css_validator.png" alt="css results: no issues">
+
+   - [W3C CSS Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fannickrynne.github.io%2Fondaslunares%2F) - Results: 0 errors/warnings
+
+ <img src="docs/html_validator.png" alt="html results: no issues">
+
 
 The website was successfully tested on Chrome, Microsoft Edge, Firefox and Safari, using 2 mobile phones (Lenovo P2a42 V7.0 and Poco MIUI 12, a DELL laptop and an Ipad Pro 10.5". 
 
